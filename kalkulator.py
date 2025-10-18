@@ -12,6 +12,9 @@ def deli(a, b):
         raise ValueError("Deljenje z nic ni dovoljeno.")
     return a / b
 
+def potenciraj(a, b):
+    return a ** b
+
 if __name__ == "__main__":
     print("Preprost kalkulator")
     x = float(input("Vnesi prvo stevilo: "))
