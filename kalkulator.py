@@ -17,7 +17,7 @@ def potenciraj(a, b):
 
 if __name__ == "__main__":
     print("Preprost kalkulator")
-    x = float(input("Vnesi prvo stevilo: "))
+    x = float(input("Vnesi prvo stevilko: "))
     y = float(input("Vnesi drugo stevilo: "))
     op = input("Izberi operacijo (+, -, *, /): ")
 
