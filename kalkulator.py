@@ -34,3 +34,4 @@ if __name__ == "__main__":
     
     def sprememba():
         print("Sprememba")
+# Komentar iz veje master
