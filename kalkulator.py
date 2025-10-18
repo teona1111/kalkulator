@@ -19,7 +19,7 @@ if __name__ == "__main__":
     print("Preprost kalkulator")
     x = float(input("Vnesi stevilo: "))
     y = float(input("Vnesi drugo stevilko: "))
-    op = input("Izberi operacijo (+, -, *, /): ")
+    op = input("Izberi operacij (+, -, *, /): ")
 
     if op == "+":
         print("Rezultat:", sestej(x, y))
