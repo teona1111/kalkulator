@@ -36,3 +36,4 @@ if __name__ == "__main__":
         print("Sprememba")
 # Komentar iz veje master
 # Komentar 2
+# Komentar 3
