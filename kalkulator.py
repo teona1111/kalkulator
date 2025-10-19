@@ -31,3 +31,6 @@ if __name__ == "__main__":
         print("Rezultat:", deli(x, y)) 
     else: 
         print("Neveljavna operacija.")
+
+# komentar
+# novi komentar
