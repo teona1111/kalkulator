@@ -1,19 +1,19 @@
-def sestej(a, b):
-    return a + b
+def sestej(a, b): 
+    return a + b 
 
-def odstej(a, b):
-    return a - b
+def odstej(a, b): 
+    return a - b 
 
-def zmnozi(a, b):
-    return a * b
+def zmnozi(a, b): 
+    return a * b 
 
-def deli(a, b):
-    if b == 0:
+def deli(a, b): 
+    if b == 0: 
         raise ValueError("Deljenje z nic ni dovoljeno.")
-    return a / b
+    return a / b 
 
-def potenciraj(a, b):
-    return a ** b
+def potenciraj(a, b): 
+    return a ** b 
 
 if __name__ == "__main__":
     print("Preprost kalkulator")
@@ -21,19 +21,17 @@ if __name__ == "__main__":
     y = float(input("Vnesi drugo stevilo: "))
     op = input("Izberi operacijo (+, -, *, /): ")
 
-    if op == "+":
-        print("Rezultat:", sestej(x, y))
-    elif op == "-":
-        print("Rezultat:", odstej(x, y))
-    elif op == "*":
-        print("Rezultat:", zmnozi(x, y))
-    elif op == "/":
-        print("Rezultat:", deli(x, y))
-    else:
+    if op == "+": 
+        print("Rezultat:", sestej(x, y)) 
+    elif op == "-": 
+        print("Rezultat:", odstej(x, y)) 
+    elif op == "*": 
+        print("Rezultat:", zmnozi(x, y)) 
+    elif op == "/": 
+        print("Rezultat:", deli(x, y)) 
+    else: 
         print("Neveljavna operacija.")
-    
-    def sprememba():
-        print("Sprememba")
-# Komentar iz veje master
-# Komentar 2
-# Nov komentar
+
+# komentar
+# novi komentar
+# komentar 3
